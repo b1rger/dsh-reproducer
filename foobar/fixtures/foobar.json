@@ -1,0 +1,57 @@
+[
+{
+  "model": "foobar.root",
+  "pk": 1,
+  "fields": {}
+},
+{
+  "model": "foobar.profession",
+  "pk": 1,
+  "fields": {
+    "name": ""
+  }
+},
+{
+  "model": "foobar.historicalperson",
+  "pk": 1,
+  "fields": {
+    "root_ptr": 1,
+    "id": 1,
+    "history_date": "2024-06-11T09:55:42.423Z",
+    "history_change_reason": null,
+    "history_type": "+",
+    "history_user": null
+  }
+},
+{
+  "model": "foobar.historicalperson",
+  "pk": 2,
+  "fields": {
+    "root_ptr": 1,
+    "id": 1,
+    "history_date": "2024-06-11T09:55:42.433Z",
+    "history_change_reason": null,
+    "history_type": "~",
+    "history_user": null
+  }
+},
+{
+  "model": "foobar.historicalperson_profession",
+  "pk": 1,
+  "fields": {
+    "id": 1,
+    "person": 1,
+    "profession": 1,
+    "history": 2
+  }
+},
+{
+  "model": "foobar.person",
+  "pk": 1,
+  "fields": {
+    "profession": [
+      1
+    ]
+  }
+}
+]
